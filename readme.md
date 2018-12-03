@@ -14,6 +14,7 @@ Download MNIST dataset from [Lecun's website](http://yann.lecun.com/exdb/mnist/)
 In this version, I have implemented the convolution, linear (fully-connected), batch normalization, dropout, max pooling, ReLU, softmax loss layers. A modified lenet is builded with these layers one by one. We will first forward the network from bottom to top, then calculate every layer's gradient from top to bottom, last we will update the parameters. For now, I have implemented the SGD with momentum. 
 
 ![](https://raw.githubusercontent.com/BoyuanJiang/Numpy_CNN/master/fig/1543805683.png)
+
 AS can be seen, we achieve about 99% accuracy on both train and test datasets.
 
 A new version based on compute graph is on the way and I will update it recently.
